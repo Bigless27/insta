@@ -1,0 +1,145 @@
+html, body {
+    margin: 0px;
+}
+
+.main-insta {
+    background-image: url('./images/first.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.second-insta {
+    /* background-image: url('./images/second.jpeg'); */
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.stats-font {
+    color: #262626;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 5px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif
+}
+
+.stat-container {
+    position: absolute;
+    background: #f7f7f7;
+    top: 105px;
+    height: 25px;
+    width: 208px;
+    right: 25px;
+}
+
+.bar {
+    background-image: url("./images/bar.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+}
+.bar2 {
+    background-image: url("./images/first.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+}
+
+.middle-space {
+    margin: 0px 54px;
+}
+
+.nav-bar {
+    background-image: url('./images/nav-bar.jpeg');
+    width: 100%;
+    height: 82px;
+    background-repeat: no-repeat;
+    z-index:10;
+    position: fixed;
+    bottom:0;
+    background-size: contain;
+}
+
+.pic-grid {
+    z-index: 1;
+    width: 100%;
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 436px;
+    opacity: 1;
+}
+
+.pic-grid .grid-1 {
+ background-image: url('./images/bacon.jpeg');
+ width: 125px;
+ height: 124px;
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+}
+
+.grid-2 {
+    background-image: url('./images/one.jpeg');
+    width: 125px;
+    height: 124px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.grid-3 {
+    background-image: url('./images/two.jpeg');
+    width: 125px;
+    height: 124px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.grid-4 {
+    background-image: url('./images/three.jpeg');
+    width: 125px;
+    height: 124px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.grid-5 {
+    background-image: url('./images/four.jpeg');
+    width: 125px;
+    height: 124px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.grid-6 {
+    background-image: url('./images/five.jpeg');
+    width: 125px;
+    height: 124px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* .space {
+    margin: 0px 0.5px;
+} */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
