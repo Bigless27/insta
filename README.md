@@ -1,4 +1,5 @@
 # Fake Instagram Progressive Web App
+[Watch video tutorial here!](https://www.youtube.com/watch?v=wpbkUTvZGgg&feature=youtu.be)
 
 ## Prerequisites 
 
@@ -6,7 +7,7 @@
 * [Git Link](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 * [Live Server](https://www.npmjs.com/package/live-server)
 * [Progressive Web APP](https://medium.com/appscope/designing-native-like-progressive-web-apps-for-ios-1b3cdda1d0e8)
-
+* [Heroku](https://blog.teamtreehouse.com/deploy-static-site-heroku)
 
 ## Steps to Customize
 1. Clone repo 
@@ -20,6 +21,7 @@
 7. Deploy to server of your choosing. This is build to use Heroku. 
 8. Navigate to hosting url. Inspect the page and open Application> Manifest. And see if the 
     add to homescreen option is available.
+9. You're all set! now watch Youtube video on how to add it to your phone!
 
 
 
