@@ -4,11 +4,15 @@ html, body {
 
 .main-insta {
     background-image: url('./images/first.jpeg');
-    width: 100%;
-    height: 100vh;
-    background-size: contain;
+    min-height : 100%;
+    min-width : 100%;
+    height: 730px;
+    background-size:100% 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
     background-repeat: no-repeat;
-}
+} 
 
 .second-insta {
     /* background-image: url('./images/second.jpeg'); */
@@ -21,7 +25,7 @@ html, body {
 .stats-font {
     color: #262626;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 5px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif
 }
@@ -45,7 +49,7 @@ html, body {
 }
 
 .top-cover {
-    width: 100%;
+    width: 362px;
     height: 24px;
     position: absolute;
     background: #f1f1f1;
@@ -93,7 +97,7 @@ html, body {
 }
 
 .middle-space {
-    margin: 0px 54px;
+    margin: 0px 48px;
 }
 
 .nav-bar {
@@ -116,10 +120,10 @@ html, body {
 
 .pic-grid {
     z-index: 1;
-    width: 100%;
+    width: 375px;
     background-color: #f7f7f7;
     position: absolute;
-    top: 436px;
+    top: 430px;
     opacity: 1;
 }
 
