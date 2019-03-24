@@ -1,16 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="apple-touch-icon" sizes="192x192" href="./images/instagram.png">
+    <link rel="apple-touch-icon" href="./images/instagram.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/instagram.png">
     <link rel="manifest" href="./manifest.webmanifest">
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="spinner.css">
 </head>
+
 <body>
     <!-- <a href="http://www.youtube.com">click</a> -->
     <div style="width: 100%;">
@@ -21,12 +23,11 @@
         </div>
         <div class="verified"></div>
 
-        <a href="https://www.youtube.com/channel/UCCj889Tof__pZI3f6E76BJg?view_as=subscriber"
-         class="youtube-link"></a>
+        <a href="https://www.youtube.com/channel/UCCj889Tof__pZI3f6E76BJg?view_as=subscriber" class="youtube-link"></a>
 
-         <div class="top-cover"></div>
-         <div class="bottom-cover"></div>
-        
+        <div class="top-cover"></div>
+        <div class="bottom-cover"></div>
+
         <div class="main-insta"></div>
         <div class="pic-grid flex-container flex-wrap">
             <div class="grid-1"></div>
@@ -54,7 +55,20 @@
             <div class="grid-23"></div>
             <div class="grid-24"></div>
             <div class="spinner flex-container flex-center">
-                    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                <div class="lds-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </div>
 
@@ -64,9 +78,10 @@
 </body>
 <script>
     if (!navigator.serviceWorker.controller) {
-        navigator.serviceWorker.register("/sw.js").then(function(reg) {
+        navigator.serviceWorker.register("/sw.js").then(function (reg) {
             console.log("Service worker has been registered for scope: " + reg.scope);
         });
     }
 </script>
+
 </html>

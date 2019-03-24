@@ -3,13 +3,6 @@
     "short_name": "Instagram",
     "display": "standalone",
     "background-color": "#ffffff",
-    "description": "loc app",
-    "icons": [
-        {
-           "src": "./images/instagram.png",
-           "sizes": "192x192",
-           "type": "image/png" 
-        }
-    ]
+    "description": "loc app"
 
 }
